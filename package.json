@@ -1,7 +1,7 @@
 {
   "name": "dumb_api_js",
   "version": "1.0.0",
-  "description": "Full-featured client library for Dumb Messenger server",
+  "description": "JS API For DUMB",
   "main": "index.js",
   "type": "module",
   "scripts": {
