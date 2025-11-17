@@ -1,24 +1,42 @@
 {
   "name": "dumb_api_js",
   "version": "1.0.0",
-  "description": "JS API For DUMB",
-  "main": "index.js",
+  "description": "DUMB Client API For JS",
   "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
   "scripts": {
-    "build": "node build.js",
-    "test": "node test.js"
+    "test": "node test/test.js"
   },
-  "dependencies": {
-    "events": "^3.3.0",
-    "node-fetch": "^3.3.2",
-    "form-data": "^4.0.0",
-    "ws": "^8.14.2"
-  },
-  "devDependencies": {
-    "webpack": "^5.88.0",
-    "webpack-cli": "^5.1.4"
-  },
-  "keywords": ["chat", "api", "client", "websocket", "realtime"],
+  "keywords": [
+    "chat",
+    "websocket",
+    "realtime", 
+    "webrtc",
+    "2fa",
+    "voice-messages",
+    "client",
+    "sdk"
+  ],
   "author": "debianrose",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dumbmessenger/dumb_api_js"
+  },
+  "bugs": {
+    "url": "https://github.com/dumbmessenger/dumb_api_js"
+  },
+  "homepage": "https://dumb-msg.xyz",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "test/"
+  ]
 }
