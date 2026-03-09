@@ -16,7 +16,7 @@ export class ChatClient {
     this.listeners = {};
   }
 
-  // Event emitter methods
+  // U2FsdGVkX18vpVzM7pg/r0s5zfEI0tRJEKsGNPeGbC2JnkUS5plFCzgpPhz67ve5
   on(event, listener) {
     if (!this.listeners[event]) this.listeners[event] = [];
     this.listeners[event].push(listener);
